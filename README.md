@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Dashboard UI Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Dasboard UI design using pure Html5, CSS, JavaScript, JSON and React
 
-## Available Scripts
+Here I have created a dashboard with a clean UI for the provided user data set i.e users.json and subscriptions.json
+* In table format I have listed the subscribers with applicable visual presentation.
+* Include the option for sort and filter i.e sort through a ascending order and descending order & filter by typing text on input.
+* In table format I have listed the subscritions details of each users, here  I have linked id and user_id from both users.json and subscriptions.json dataset.
+* Used async method to fetch the dataset of JSON.
+* No any bootstrap/css framework is used. All the code written in pure html, css, json, js and React.
 
-In the project directory, you can run:
+#Design Preview are
+* Dashboard View
 
-### `npm start`
+![Dashboard](https://user-images.githubusercontent.com/56125560/130930118-6dc5fbfa-2728-456f-837a-f04982669d8e.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* User List View
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![userlist](https://user-images.githubusercontent.com/56125560/130930172-70674932-19ea-4ec2-b474-0283092b3f58.JPG)
 
-### `npm test`
+* Subscriptions user list
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![subscribed user](https://user-images.githubusercontent.com/56125560/130930224-7775bb93-3b17-4800-a7d5-39731fc46918.JPG)
 
-### `npm run build`
+* Error Page view
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![404 error](https://user-images.githubusercontent.com/56125560/130930399-9abfedd7-54c2-408e-9057-7d6dcbf67c67.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Responsive view
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Dashboard
 
-### `npm run eject`
+![Resonsive](https://user-images.githubusercontent.com/56125560/130930477-29dad4a6-0b82-4249-ae57-451a27771e09.JPG)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Subscriptions User lists
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Responsibe 1](https://user-images.githubusercontent.com/56125560/130930535-46048182-9726-45cc-9fc3-7a38611f88cb.JPG)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Thank You!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
