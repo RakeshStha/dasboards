@@ -12,15 +12,15 @@ Here I have created a dashboard with a clean UI for the provided user data set i
 # Design Preview are
 * Dashboard View
 
-![Dashboard](https://user-images.githubusercontent.com/56125560/130930118-6dc5fbfa-2728-456f-837a-f04982669d8e.png)
+![Dashboard](https://user-images.githubusercontent.com/56125560/130944345-99ce1771-e388-4045-8525-cd039bec6dfc.png)
 
 * User List View
 
-![userlist](https://user-images.githubusercontent.com/56125560/130930172-70674932-19ea-4ec2-b474-0283092b3f58.JPG)
+![userlist](https://user-images.githubusercontent.com/56125560/130944390-460de67f-ec9b-40c6-b62e-59667c62153e.JPG)
 
 * Subscriptions user list
 
-![subscribed user](https://user-images.githubusercontent.com/56125560/130930224-7775bb93-3b17-4800-a7d5-39731fc46918.JPG)
+![subscribed user](https://user-images.githubusercontent.com/56125560/130944413-08f39f90-0b6a-4425-93ff-5b7130626d15.JPG)
 
 * Error Page view
 
@@ -30,12 +30,13 @@ Here I have created a dashboard with a clean UI for the provided user data set i
 
 * Dashboard
 
-![Resonsive](https://user-images.githubusercontent.com/56125560/130930477-29dad4a6-0b82-4249-ae57-451a27771e09.JPG)
+![Resonsive](https://user-images.githubusercontent.com/56125560/130944449-0f9b8944-428c-41f4-8103-9cb36652d0b9.JPG)
 
 
 * Subscriptions User lists
 
-![Responsibe 1](https://user-images.githubusercontent.com/56125560/130930535-46048182-9726-45cc-9fc3-7a38611f88cb.JPG)
+![Responsibe 1](https://user-images.githubusercontent.com/56125560/130944464-38e7068f-08be-48c6-9071-8cb524ed4067.JPG)
+
 
 
 # !!!!!!!!!Thank You!!!!!!!!!
