@@ -1,4 +1,4 @@
-# Dashboard UI Design
+# Dashboard UI Design (Frontend Developer Assignment)
 
 * Dasboard UI design using pure Html5, CSS, JavaScript, JSON and React
 
