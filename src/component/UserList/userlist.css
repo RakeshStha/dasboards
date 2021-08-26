@@ -125,7 +125,6 @@ table {
   border-radius: 5px;
   border: 2px solid black;
   text-decoration: none;
-
 }
 .sortings{
   font-size: 16px;
@@ -145,5 +144,8 @@ table {
   .main {
     margin-left: 0rem;
     padding: 1rem;
+  }
+  .input-field {
+    width: 50%;
   }
 }
