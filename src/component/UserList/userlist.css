@@ -1,0 +1,149 @@
+table {
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .700em;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  tbody tr:hover {
+    background-color: rgb(236, 234, 234);
+  }
+
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  table thead tr {
+    background-color: rgb(176, 223, 207);
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  
+  
+  /* general styling */
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }
+
+  .table-head {
+    text-align: center;
+  }
+
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+  
+.icon {
+    padding: 5px 0 5px 10px;
+    min-width: 20px;
+}
+
+.input-icons i {
+  font-size: 1.5rem;
+  color: darkgrey;
+  position: absolute;
+}
+  
+.input-field {
+  margin: 0px 0 20px 0;
+  padding: 10px 10px 10px 40px;
+  font-size: 15px;
+  height: 2.2rem;
+  width: 18%;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-decoration: none;
+
+}
+.sortings{
+  font-size: 16px;
+}
+
+.sortings:hover {
+  color: red;
+}
+
+
+.main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-left: 0rem;
+    padding: 1rem;
+  }
+}

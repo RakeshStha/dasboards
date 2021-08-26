@@ -1,0 +1,136 @@
+:root {
+    font-size: 16px;
+    font-family: "Open Sans";
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: grey;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+  }
+
+  body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+
+  .navbar {
+    padding-top: 20px;
+    width: 5rem;
+    height: 100%;
+    position: fixed;
+    background-color: var(--bg-primary);
+    /* Total vertical height */
+    transition: width 240ms ease;
+  }
+  
+ 
+  .nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .nav-item:last-child {
+    margin-top: 10rem;
+  }
+
+  /* We can select a list and put it in end using margin-top:auto */
+  
+  i {
+    font-size: 30px;
+    margin-top: 0 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .nav-item {
+    margin: 15px 5px;
+    padding: 0px;
+  }
+
+  
+  .text {
+    display: none;
+    
+  }
+
+  .navbar:hover {
+    width: 16rem;
+  }
+
+  .navbar:hover .text {
+    display: block;
+  }
+
+  .nav-link {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #141418;
+  }
+
+  .nav-link > .text {
+      font-weight: 700;
+      font-family: 'Mulish';
+      font-size: 23px;
+  }
+  
+  .nav-item > .nav-link:hover {
+    color: #cea135;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    main {
+      margin-left: 0rem;
+      padding: 1rem;
+    }
+    .navbar {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+    }
+    .navbar:hover {
+      width: 100vw;
+    }
+    .navbar:hover .text {
+      display: none;
+    }
+    .nav-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    /* .nav-link {
+      justify-content: center;
+    } */
+    .nav-item:last-child {
+      margin-top: auto;
+    }
+  }
+  
+
+  /**End of navbar*/
+
+  .heading {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  @media only screen and (max-width: 600px) {
+  .heading{
+    margin: 60px;
+  }
+  }
