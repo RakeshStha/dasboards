@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <main>
                 <footer className="footer">
-                    2021 &copy; Design by Rakesh Shrestha
+                    2021 &copy; Design by <a href="https://www.shrestharakesh.com.np">Rakesh Shrestha</a>
                 </footer>
             </main>
         </div>
