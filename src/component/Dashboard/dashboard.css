@@ -14,6 +14,7 @@
 .total_users{
     padding: 20px;
     border: 1px solid darkgrey;
+    border-radius: 10px;
     box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.32);
     -webkit-box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.32);
     -moz-box-shadow: 0px 6px 32px 1px rgba(0,0,0,0.32);
@@ -27,4 +28,16 @@
 .description-text{
     text-align: justify;
     font-family: 'Mulish';
+}
+
+.table_1 {  
+    background-color: #eba448;
+}
+
+.table_1:hover,.table_2:hover{
+    background-color: #3b76ef;
+}
+
+.table_2 {
+    background-color: #cf71ec;
 }

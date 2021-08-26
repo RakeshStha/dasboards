@@ -7,6 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 
 
 import Navbar from './component/Navbar/Navbar';
+import Footer from './component/Navbar/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/suscriber" component={Suscriber}/>
         <Route component={Error404}/>
       </Switch>
+      <Footer/>
     </>
   );
 }

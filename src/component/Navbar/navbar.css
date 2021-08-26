@@ -3,7 +3,7 @@
     font-family: "Open Sans";
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: grey;
+    --bg-primary: rgb(94, 94, 168);
     --bg-secondary: #141418;
     --transition-speed: 600ms;
   }
@@ -133,4 +133,12 @@
   .heading{
     margin: 60px;
   }
+  }
+
+  .footer{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
   }

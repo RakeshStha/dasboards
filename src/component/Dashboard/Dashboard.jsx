@@ -26,30 +26,21 @@ const Dashboard = () => {
                 <h1 className= "heading">Welcome to Dashboard</h1>
                     {/* <p> User data list : {Object.keys(UserData).length}</p>
                     <p>Suscriber list: {Object.keys(Suscriber).length}</p> */}
-                <p className="description-text">
-                Genius Systems Pvt. Ltd. (Genius Systems) is a leading software development 
-                company based in Nepal. Specialing in innovating digital products for enterprises,
-                 developing community solutions and delivering corporate services over different platforms,
-                  it has already established itself by providing the digital solutions to scale. 
-                  The company continues to explore emerging opportunities for developing technologies
-                   for rendering entertainment, news, educational, cultural and productivity contents 
-                   over different digital platforms including mobile (both android and iOS), TVs,
-                    web and end-user applications.
-                </p>
 
                 <div className="users_view">
                     <div className="flexs">
-                        <div className="total_users">
+                        <div className="total_users table_1">
                             <h1>Total Users:  {users.length}</h1>
                         </div>
                     </div>
                     <div className="flexs">
-                        <div className="total_users">
+                        <div className="total_users table_2">
                             <h1>Subscribed user: {subscribe.length}</h1>
                         </div>
                     </div>
                 </div>
             </main>
+            
         </div>
     )
 }
