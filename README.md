@@ -9,7 +9,7 @@ Here I have created a dashboard with a clean UI for the provided user data set i
 * Used async method to fetch the dataset of JSON.
 * No any bootstrap/css framework is used. All the code written in pure html, css, json, js and React.
 
-#Design Preview are
+# Design Preview are
 * Dashboard View
 
 ![Dashboard](https://user-images.githubusercontent.com/56125560/130930118-6dc5fbfa-2728-456f-837a-f04982669d8e.png)
