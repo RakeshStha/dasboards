@@ -38,4 +38,4 @@ Here I have created a dashboard with a clean UI for the provided user data set i
 ![Responsibe 1](https://user-images.githubusercontent.com/56125560/130930535-46048182-9726-45cc-9fc3-7a38611f88cb.JPG)
 
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Thank You!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!Thank You!!!!!!!!!
