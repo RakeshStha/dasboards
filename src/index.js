@@ -11,3 +11,5 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+
+require('typeface-mulish');
