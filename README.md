@@ -24,7 +24,7 @@ Here I have created a dashboard with a clean UI for the provided user data set i
 
 * Error Page view
 
-![404 error](https://user-images.githubusercontent.com/56125560/130930399-9abfedd7-54c2-408e-9057-7d6dcbf67c67.png)
+![404 error](https://user-images.githubusercontent.com/56125560/130944569-2bd64ea6-dc9c-4835-bc88-000cc9f7fa84.png)
 
 # Responsive view
 
