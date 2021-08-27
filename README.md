@@ -12,30 +12,42 @@ Here I have created a dashboard with a clean UI for the provided user data set i
 # Design Preview are
 * Dashboard View
 
-![Dashboard](https://user-images.githubusercontent.com/56125560/130944345-99ce1771-e388-4045-8525-cd039bec6dfc.png)
+![1](https://user-images.githubusercontent.com/56125560/131128126-7885510b-4500-4baa-b35a-e26bd7f164e5.png)
 
 * User List View
 
-![userlist](https://user-images.githubusercontent.com/56125560/130944390-460de67f-ec9b-40c6-b62e-59667c62153e.JPG)
+![userlists](https://user-images.githubusercontent.com/56125560/131128146-338386c5-f65b-49c6-88ea-b82b42426c63.JPG)
 
 * Subscriptions user list
 
-![subscribed user](https://user-images.githubusercontent.com/56125560/130944413-08f39f90-0b6a-4425-93ff-5b7130626d15.JPG)
+![subscribed list](https://user-images.githubusercontent.com/56125560/131128167-ef068032-7622-4b0a-82bd-74a6f213d8a6.JPG)
+
+* Graph view
+
+![graph](https://user-images.githubusercontent.com/56125560/131128249-eb2f3a72-8db3-4503-a5fe-ecc0bd7f6490.png)
+
+* Bar graph country vs active
+
+![active country](https://user-images.githubusercontent.com/56125560/131128334-f23cc6df-5db9-42ae-bc3a-c28c64d60407.JPG)
+
+* Bar graph package vs user_id
+
+![package](https://user-images.githubusercontent.com/56125560/131128360-d181331b-c167-42c3-b3d1-c6a28a269717.JPG)
 
 * Error Page view
 
-![404 error](https://user-images.githubusercontent.com/56125560/130944569-2bd64ea6-dc9c-4835-bc88-000cc9f7fa84.png)
+![error](https://user-images.githubusercontent.com/56125560/131128207-08d67ab7-c730-46e0-9aed-3daf0587dfdd.png)
 
 # Responsive view
 
 * Dashboard
 
-![Resonsive](https://user-images.githubusercontent.com/56125560/130944449-0f9b8944-428c-41f4-8103-9cb36652d0b9.JPG)
+![responsive 1](https://user-images.githubusercontent.com/56125560/131128465-c8583dc3-fdff-45df-b1c4-d8dc4de5bc2a.JPG)
 
 
 * Subscriptions User lists
 
-![Responsibe 1](https://user-images.githubusercontent.com/56125560/130944464-38e7068f-08be-48c6-9071-8cb524ed4067.JPG)
+![sub](https://user-images.githubusercontent.com/56125560/131128518-6fcb74bd-9f61-4963-be51-2e1ab449a60b.JPG)
 
 
 
