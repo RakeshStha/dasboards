@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState, useCallback} from 'react'
 import '../UserList/userlist.css'
 
 const UserList = () => {
@@ -9,27 +9,45 @@ const UserList = () => {
 
     const [order, setorder] = useState("ASC");
 
-    const getData=()=>{
-        fetch('./data/users.json'
-        ,{
-          headers : { 
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-           }
-        }
-        )
-          .then(function(response){
-            console.log(response)
-            return response.json();
-          })
-          .then(function(myJson) {
-            console.log(myJson);
-            setData(myJson)
-          });
-      }
-      useEffect(()=>{
-        getData()
-      },[])
+
+    //for user fetch data
+
+    const fetchUsersAPI = useCallback(async () => {
+      let response = await fetch('data/users.json')
+      response = await response.json()
+      setData(response)
+    }, [])
+
+    useEffect(() => {
+      fetchUsersAPI()
+    }, [fetchUsersAPI])
+
+
+
+    ////////Normal fetch data withput Async method////////////
+
+
+    // const getData=()=>{
+    //     fetch('./data/users.json'
+    //     ,{
+    //       headers : { 
+    //         'Content-Type': 'application/json',
+    //         'Accept': 'application/json'
+    //        }
+    //     }
+    //     )
+    //       .then(function(response){
+    //         console.log(response)
+    //         return response.json();
+    //       })
+    //       .then(function(myJson) {
+    //         console.log(myJson);
+    //         setData(myJson)
+    //       });
+    //   }
+    //   useEffect(()=>{
+    //     getData()
+    //   },[])
 
       const sorting = (col) => {
         if (order === "ASC") {

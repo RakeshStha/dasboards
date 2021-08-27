@@ -9,11 +9,12 @@ import { Route, Switch } from 'react-router-dom';
 import Navbar from './component/Navbar/Navbar';
 import Footer from './component/Navbar/Footer';
 
+
 function App() {
   return (
     <>
-    
       <Navbar/>
+      
       <Switch>
         <Route exact path="/" component={Dashboard}/>
         <Route path="/userlist" component={UserList}/> 

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState, useCallback} from 'react'
 import '../UserList/userlist.css'
 
 
@@ -12,35 +12,29 @@ const Suscriber = () => {
 
     const [users,setUsers] = useState([{}])
 
-    useEffect(()=>{
-      fetch('data/users.json').then((res)=>res.json()).then((data)=>{
-        setUsers(data)
-       })
-       
-    },[])
+//for user fetch data
+    const fetchUserAPI = useCallback(async () => {
+        let response = await fetch('data/users.json')
+        response = await response.json()
+        setUsers(response)
+      }, [])
 
-    const getData=()=>{
-        fetch('./data/subscriptions.json'
-        ,{
-          headers : { 
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-           }
-        }
-        )
-          .then(function(response){
-            console.log(response)
-            return response.json();
-          })
-          .then(function(myJson) {
-            console.log(myJson);
-            setData(myJson)
-          });
-      }
-      
-      useEffect(()=>{
-        getData()
-      },[])
+      useEffect(() => {
+        fetchUserAPI()
+      }, [fetchUserAPI])
+
+//for subscribe user fetch data
+
+      const fetchSubscribeAPI = useCallback(async () => {
+        let response = await fetch('data/subscriptions.json')
+        response = await response.json()
+        setData(response)
+      }, [])
+
+      useEffect(() => {
+        fetchSubscribeAPI()
+      }, [fetchSubscribeAPI])
+
 
       const sorting = (col) => {
         if (order === "ASC") {
