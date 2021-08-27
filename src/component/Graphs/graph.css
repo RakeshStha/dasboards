@@ -1,0 +1,15 @@
+.view{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.back_icon{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .view {
+      margin-left: 0rem;
+      padding: 1rem;
+    }
+}

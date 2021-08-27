@@ -73,7 +73,12 @@ const UserList = () => {
     return (
         <div className="main">
             <div className="search_option">
-                <h1 className="table-head">User Data List</h1>
+                <h1 className="table-head"> 
+                    <a href="/">
+                      <i class="fa fa-chevron-circle-left back_icon" aria-hidden="true"></i>
+                    </a>
+                    User Data List
+                </h1>
                 <div className="input-icons">
                     <i class="fa fa-search icon" aria-hidden="true"></i>
                     <input type="search" 

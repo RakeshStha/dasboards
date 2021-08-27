@@ -33,6 +33,12 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav-item">
+                            <a href="/graph" className="nav-link">
+                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                <span className="text">Graph</span>
+                            </a>
+                        </li>
+                        <li className="nav-item">
                             <a href="/logout" className="nav-link">
                                 <i className="fas fa-sign-out-alt"></i>
                                 <span className="text">Logout</span>

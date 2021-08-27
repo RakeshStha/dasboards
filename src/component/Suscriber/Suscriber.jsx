@@ -60,7 +60,12 @@ const Suscriber = () => {
     return (
         <div className="main">
             <div className="search_option">
-                <h1 className="table-head">Subscribed User Data List</h1>
+                <h1 className="table-head"> 
+                    <a href="/graph">
+                      <i class="fa fa-chevron-circle-left back_icon" aria-hidden="true"></i>
+                    </a>
+                    Subscribed User Data List
+                </h1>
                 <div className="input-icons">
                     <i class="fa fa-search icon" aria-hidden="true"></i>
                     <input type="search" 

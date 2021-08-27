@@ -1,4 +1,4 @@
-.users_view {
+.users_view,.graph_view {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,12 @@
     margin: 5px;
     padding: 10px;
     flex-wrap: wrap;
-    flex: 1;
+    flex: 1;    
+}
+
+.graph_view {
+    margin-left: 5rem;
+    padding: 1rem;
 }
 
 .total_users{
@@ -32,6 +37,10 @@
 
 .table_1 {  
     background-color: #eba448;
+}
+.table_1, .table_2 a {
+    color: black;
+    text-decoration: none;
 }
 
 .table_1:hover,.table_2:hover{

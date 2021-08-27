@@ -124,6 +124,15 @@
 
   /**End of navbar*/
 
+  .back_icon{
+    text-decoration: none;
+    color: black;
+  }
+
+  .back_icon:hover{
+      color: red;
+  }
+
   .heading {
     text-align: center;
     margin-top: 60px;
